@@ -1,4 +1,4 @@
-package com.carlos.test1;
+﻿package com.carlos.test1;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -42,7 +42,7 @@ public class Test21 {
 			System.out.println("解析出来的日期为"
 					+ new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.CHINA)
 							.format(date));
-			return date.getTime();
+			return date.getTime() + "1234567890";
 		}
 	}
 
